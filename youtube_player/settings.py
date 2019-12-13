@@ -22,6 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '99ep5-zj*zhhh^#y4@5ezao%l17jz((-=f8-)j9c$&hza__@69'
 
+GOOGLE_OAUTH2_CLIENT_ID = '876853293006-1hi4cd4piegr8qmeso4f2d1cufp34sj5.apps.googleusercontent.com'
+GOOGLE_OAUTH2_CLIENT_SECRET = '<25hlKArZQgb1hJgggkJzKXJq>'
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -37,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'youtube',
 ]
 
 MIDDLEWARE = [
